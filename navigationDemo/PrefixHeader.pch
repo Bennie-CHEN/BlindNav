@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  mapdemo
+//
+//  Created by thomasho on 2017/9/14.
+//  Copyright © 2017年 thomasho. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define APPID_VALUE           @"5f145066"
+//**********************************以下必须修改***********************************
+//以下地图初始化参数参看：http://open.brtbeacon.com
+#define kBuildingId @"07550013"
+#define kAppKey @"b4e86e48d2e84764add17bc6c85a3fc5"
+//支持00230029的iBeacon定位参数
+//UUID:FDA50693-A4E2-4FB1-AFCF-C6EB076478250
+//major:10186
+//minor:47997~48000
+//**********************************以上必须修改***********************************
+
+#endif /* PrefixHeader_pch */
